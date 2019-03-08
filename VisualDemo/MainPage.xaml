@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:VisualDemo" 
+             x:Class="VisualDemo.MainPage"
+             Visual="Material">
+    <Grid Padding="40" BackgroundColor="#002B55">
+        <Frame BackgroundColor="Silver" HorizontalOptions="Fill" VerticalOptions="Center">
+           <StackLayout Spacing="20">
+                <Entry Placeholder="Enter your name" BackgroundColor="White" />
+                <Button Text="Next" Clicked="Handle_Clicked" />
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>
